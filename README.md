@@ -1,5 +1,6 @@
 
-# a blog = jekyll + github pages + 《ES6标准入门》 阮一峰 Demo
+# myblog 
+## jekyll + github pages + 《ES6标准入门》 阮一峰 Demo
 
 ### local run
 jekyll serve --watch
@@ -9,7 +10,7 @@ bundle exec jekyll serve
 
 ### gem 修改镜像源
 
-#### 要注意的是，ruby版本最好在2.0以上
+#### 要注意的是，ruby版本最好在2.0 以上
 
 #### 1.修改gem源
     
