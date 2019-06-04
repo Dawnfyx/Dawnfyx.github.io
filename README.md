@@ -1,8 +1,10 @@
-# jekyll + github + blog + test
 
-#### run
+# a blog = jekyll + github pages + 《ES6标准入门》 阮一峰 Demo
+
+### local run
 jekyll serve --watch
- bundle exec jekyll serve
+<br />
+bundle exec jekyll serve
 
 
 ### gem 修改镜像源
