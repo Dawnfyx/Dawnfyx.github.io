@@ -1,6 +1,6 @@
-# jekyll + github pages = blog
+# jekyll + github pages = myblog
 
-#### run
+### run
 jekyll serve --watch
 
 
