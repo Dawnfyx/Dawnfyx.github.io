@@ -1,40 +1,37 @@
-# jekyll + github pages = myblog
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
-### run
-jekyll serve --watch
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
+## Demo
 
-### gem 修改镜像源
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
 
-#### 要注意的是，ruby版本最好在2.0以上
+The main page would look like this:
 
-#### 1.修改gem源
-    
-    //查看源：
-    gem sources -l 
-    //图内镜像：
-    gem sources -a https://gems.ruby-china.com/
-    //删除源：
-    gem sources -r https://rubygems.org/ 
-    
-    
-    //提示证书验证失败：
-    C:\>gem sources -a https://gems.ruby-china.com/
-    Error fetching https://gems.ruby-china.org/:
-            SSL_connect returned=1 errno=0 state=SSLv3 read server
-    rtificate verify failed (https://gems.ruby-china.org/specs.4.8.gz)
-    
-    
-    //解决：下载证书：
-    http://curl.haxx.se/ca/cacert.pem
-    设置环境变量：
-    SSL_CERT_FILE=<证书存放路径>
-    如：SSL_CERT_FILE=d:\RailsInstaller\cacert.pem
-    重启命令行，再次执行命令
-    
-    //如果还有问题，在命令行里执行
-    set SSL_CERT_FILE=<证书存放路径>
-    
-    
-#### 2.修改rails默认源
-    bundle config 'mirror.https://rubygems.org' 'https://gems.ruby-china.com/'
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
+
+The post page would look like this:
+
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
+
+## Features
+
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Support Emoji
+
+## Installation:
+
+Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
+
+## License
+
+GNU General Public License v3.0
+
+## Donate
+
+<p>If you want to show your appreciation, buy me one <a href="https://www.buymeacoffee.com/artemsheludko" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a> ! Every five cups of coffee and a new theme for Jekyll is ready 😋</p>
+<p>Either way, your support is a way to thank me ❤️</p>
+<p align="center"><b>Thank you for your support!</b></p>
